@@ -4,7 +4,7 @@ import asyncio
 class MarketDataService:
     def __init__(self):
         self.base_url = 'https://www.alphavantage.co/query'
-        self.api_key = 'AUG9NPOHGFAZMBHQ'
+        self.api_key = ''
 
     async def get_market_data(self, ticker):
         params = {
